@@ -17,15 +17,15 @@ class Main extends Component {
              <h1>Kettletop BrewHouse</h1>
              <ul className="header">
                 <li><NavLink exact to="/">Home</NavLink></li>
+                <li><NavLink to="/menu">Menu</NavLink></li>
                 <li><NavLink to="/aboutus">About Us</NavLink></li>
                 <li><NavLink to="/contact">Contact</NavLink></li>
-                <li><NavLink to="/menu">Menu</NavLink></li>
              </ul>
              <div className="content">
                 <Route exact path="/" component={Home}/>
+                <Route path="/menu" component={Menu}/>
                 <Route path="/aboutus" component={AboutUs}/>
                 <Route path="/contact" component={Contact}/>
-                <Route path="/menu" component={Menu}/>
              </div>
             </div>
         </HashRouter>
