@@ -11,16 +11,16 @@ body {
   
 
   img {
-    width: 1175px;
-    height: 530px;
+    width: 1855px;
+    height: 850px;
     position: relative;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align:center;
     margin-right: 15px;
-    background-image: url('menu.png');
+    margin-top: auto;
+    background-image: url("menu.png");
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    background-position:left;
   }
   h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -29,12 +29,26 @@ body {
     opacity: .75;
     color: rgba(255, 187, 60, 0.644);
   } 
- h2, h3, ul, li {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight:lighter;
-    color: rgb(0, 0, 0);
-  }  
-  p {
+  h2, h3{
+    text-align: center;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-weight:lighter;
+     color: rgb(0, 0, 0);
+   }  
+   h4, h5{
+    text-align: center;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-weight:lighter;
+     color: rgb(0, 0, 0);
+   }  
+   ul, li {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-weight:lighter;
+      color: rgb(0, 0, 0);
+    }  
+   p {
+    text-align: center;
+
     font-family:Arial, Helvetica, sans-serif;
     font-weight:bolder;
     color: rgba(0, 0, 0, 0.671);
@@ -55,19 +69,28 @@ body {
     padding: 20px;
     display: inline-block;
   }
-  .content {
+  .content h2, h3, p {
     background-color: #cccccc;
     opacity: .8;
     padding: 20px;
+    margin-right:1475px;
     font-variant-alternates: stylistic();
   }
-  .content h2 {
-    padding: 0;
-    margin: 0;
+  .content h4{
+    background-color: #cccccc;
+    opacity: .8;
+    padding: 20px;
+    margin-right:1475px;
+    font-variant-alternates: stylistic();
   }
   .content li {
     margin-bottom: 10px;
   }
   .active {
     background-color: rgba(255, 187, 60, 0.644);;
+  }
+  .text-align:right h2{
+    padding: 20px;
+    margin-left:1475px;
+    font-variant-alternates: stylistic();
   }
