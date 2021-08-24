@@ -1,13 +1,28 @@
 # react_kettletop2
 
 Files included:
+
 .vscode
+
+
 public
+
+
 src
+
+
 .git.zip
+
+
 .gitignore
+
+
 README.md
+
+
 package-lock.json
+
+
 package.json
 
 Published site: https://jacsmi7937.github.io/react_kettletop2/#/ 
